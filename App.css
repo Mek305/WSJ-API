@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  background-color: purple;
+  color: gold;
+  font-family: 'Kaushan Script', cursive;
+
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+
+.Space {
+  display: grid;
+  
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+ ;
+  
+}
+
+.Space h2{
+  
+  float: left;
+}
+
+.Space a:hover{
+  background-color: oldlace;
+}
+
+.Space img{
+  height: 400px;
+  width: 35%;
+  float: left;
+}
+
+.Space:hover{
+  background-color:navy;
+  color: whitesmoke;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
